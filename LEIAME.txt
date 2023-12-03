@@ -1,0 +1,7 @@
+para executar o programa, o seguinte código deve ser executado no 
+terminal: curl -X POST http://127.0.0.1:5000/factorial -d '{"number": 5}' 
+-H "Content-Type: application/json"
+
+O numero que se deseja calcular o fatorial deve ser substituído em 
+'number'.
+
